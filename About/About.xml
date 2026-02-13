@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Better Architect Menu - Even More Tweaks</name>
+    <packageId>Iyadriel.BetterArchitectMenuTweaks</packageId>
+    <author>Iyadriel</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>ferny.BetterArchitect</packageId>
+            <displayName>Better Architect Menu</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3563882422</steamWorkshopUrl>
+            <downloadUrl>https://github.com/fernyrepos/Better-Architect-Menu</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ferny.BetterArchitect</li>
+        <li>koberiddle.betterarchitectmenu.tweaks</li>
+
+        <li>Adaptive.SimpleStorage</li>
+        <li>cantaloupetheclown.vanillafurnitureexpandedpack</li>
+        <li>Murmur.TCU.kotobike</li>
+        <li>NanoCE.GlassLights</li>
+        <li>phaneron.basic.storage</li>
+        <li>ponpeco.PFSF</li>
+    </loadAfter>
+    <description>
+        Misc patches for Better Architect Menu
+    </description>
+</ModMetaData>

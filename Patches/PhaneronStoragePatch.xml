@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Phaneron's Basic Storage</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BasicStorageCargoContainer"]</xpath>
+            <value>
+                <designationCategory>Iyadriel_BulkStorage</designationCategory>
+            </value>
+        </match>
+    </Operation>
+</Patch>

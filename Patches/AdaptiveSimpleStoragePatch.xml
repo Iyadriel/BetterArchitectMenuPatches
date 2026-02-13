@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Adaptive Simple Storage</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- Bundles -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BundleA"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BundleB"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BundleC"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+
+                <!-- Canisters -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CanisterA"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CanisterB"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+
+                <!-- Crates -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateA"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateB"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateC"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateD"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateE"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateF"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="CrateG"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+
+                <!-- Metal crates -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="MetalCrateA"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="MetalCrateB"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="MetalCrateC"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="MetalCrateD"]</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_BulkStorage</designationCategory>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

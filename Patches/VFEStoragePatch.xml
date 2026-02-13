@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>VFE Pack for Adaptive Storage Framework</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="FFE_Minibar"]</xpath>
+            <value>
+                <designationCategory>Ferny_FoodStorage</designationCategory>
+            </value>
+        </match>
+    </Operation>
+</Patch>

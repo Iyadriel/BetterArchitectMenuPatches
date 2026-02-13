@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/designationCategoryDef[defName="PonpecoFurniture"]</xpath>
+        <value>
+            <modExtensions>
+                <li Class="BetterArchitect.NestedCategoryExtension">
+                    <parentCategory>Furniture</parentCategory>
+                </li>
+            </modExtensions>
+        </value>
+    </Operation>
+    <!-- <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFSDecoBase"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Iyadriel_SpacerFurniture</designationCategory>
+        </value>
+    </Operation> -->
+    <!-- <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFSDecoTablewareBase"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Iyadriel_SpacerFurniture</designationCategory>
+        </value>
+    </Operation> -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFS_TabletopPlant"]</xpath>
+        <value>
+            <designationCategory>Iyadriel_SpacerFurniture</designationCategory>
+        </value>
+    </Operation>
+    <!-- <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFS_DoorFrameA"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Iyadriel_SpacerFurniture</designationCategory>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFS_DoorFrameB"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Iyadriel_SpacerFurniture</designationCategory>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFS_DoorFrameC"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Iyadriel_SpacerFurniture</designationCategory>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PFS_HoloGlassPanel"]/designationCategory</xpath>
+        <value>Iyadriel_SpacerFurniture</value>
+    </Operation> -->
+</Patch>
