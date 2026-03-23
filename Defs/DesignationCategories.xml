@@ -1,21 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <DesignationCategoryDef>
-    <defName>Iyadriel_SpacerFurniture</defName>
-    <label>Spacer</label>
-    <description>Build spacer furniture.</description>
-    <order>7</order>
-    <specialDesignatorClasses>
-      <li>Designator_Cancel</li>
-      <li>Designator_Deconstruct</li>
-    </specialDesignatorClasses>
-    <modExtensions>
-      <li Class="BetterArchitect.NestedCategoryExtension">
-        <parentCategory>Furniture</parentCategory>
-      </li>
-    </modExtensions>
-  </DesignationCategoryDef>
-
 	<DesignationCategoryDef>
 		<defName>Iyadriel_BulkStorage</defName>
 		<label>Bulk</label>
@@ -30,6 +14,22 @@
 		<modExtensions>
 			<li Class="BetterArchitect.NestedCategoryExtension">
 				<parentCategory>Ferny_Storage</parentCategory>
+			</li>
+		</modExtensions>
+	</DesignationCategoryDef>
+
+	<DesignationCategoryDef>
+		<defName>Iyadriel_WallMountedTurrets</defName>
+		<label>Wall Mounted</label>
+		<description>Build wall mounted turrets.</description>
+		<order>7</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="BetterArchitect.NestedCategoryExtension">
+				<parentCategory>Security</parentCategory>
 			</li>
 		</modExtensions>
 	</DesignationCategoryDef>

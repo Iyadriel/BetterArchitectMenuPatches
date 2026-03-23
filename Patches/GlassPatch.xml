@@ -4,12 +4,27 @@
         <mods>
             <li>Glass+Lights</li>
         </mods>
-        <match Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>Defs/ThingDef[defName="Window"]/designationCategory</xpath>
-            <value>
-                <designationCategory>Ferny_Windows</designationCategory>
-            </value>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Window"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Windows</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="DoorGlass"]</xpath>
+                    <value>
+                        <designationCategory>Ferny_Doors</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AutoDoorGlass"]</xpath>
+                    <value>
+                        <designationCategory>Ferny_Doors</designationCategory>
+                    </value>
+                </li>
+            </operations>
         </match>
     </Operation>
 </Patch>
