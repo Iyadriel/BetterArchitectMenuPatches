@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Better Architect Menu defines Ferny_Aquarium only when Owlchemist/Brrainz's
+  "Aquariums" mod is active. This shim adds the same def when it isn't,
+  so other mod patches can route aquarium-like things to Ferny_Aquarium
+  without depending on that mod. BAM already ships the icon
+  (Textures/UI/ArchitectIcons/Default/Ferny_Aquarium.png), so it picks up
+  by defName lookup automatically.
+-->
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Aquarium"]</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+                <DesignationCategoryDef>
+                    <defName>Ferny_Aquarium</defName>
+                    <label>Aquarium</label>
+                    <description>Build aquariums.</description>
+                    <order>7</order>
+                    <specialDesignatorClasses>
+                        <li>Designator_Cancel</li>
+                        <li>Designator_Deconstruct</li>
+                    </specialDesignatorClasses>
+                    <modExtensions>
+                        <li Class="BetterArchitect.NestedCategoryExtension">
+                            <parentCategory>Ferny_Hosting</parentCategory>
+                        </li>
+                    </modExtensions>
+                </DesignationCategoryDef>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>

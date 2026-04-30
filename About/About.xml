@@ -24,6 +24,7 @@
         <li>NanoCE.GlassLights</li>
         <li>phaneron.basic.storage</li>
         <li>HoneyBadger.WallMountedTurretsVersionTwo</li>
+        <li>KindSeal.UFLI</li>
     </loadAfter>
     <description>
         Misc patches for Better Architect Menu

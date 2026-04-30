@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>联合轻工家具拓展-UF Light Industries Furniture</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- Bedroom -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Bed"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_DoubleBed"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_TripleBed"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_4PBed"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Crib"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CabinetA"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CabinetB"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CabinetC"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CabinetD"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CabinetE"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CabinetF"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Endtable"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Bedroom</designationCategory></value>
+                </li>
+
+                <!-- Animal bedding -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UF_Petbed"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_AnimalBedding</designationCategory></value>
+                </li>
+
+                <!-- Walls -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Wall"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Walls</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Wall_Cable"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Walls</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Wall_Shootable"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Walls</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Wall_Shrub"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Walls</designationCategory></value>
+                </li>
+
+                <!-- Doors -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_1_Autodoor"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_1_Frame_DOOR"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_2_Autodoor"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_2_Frame_DOOR"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_3_Autodoor"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_3_Frame_DOOR"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Doorcurtain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Doors</designationCategory></value>
+                </li>
+
+                <!-- Windows -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Big_Window"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Windows</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Window"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Windows</designationCategory></value>
+                </li>
+
+                <!-- Air management (combo heat/cool unit) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_TempControler"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_AirManagement</designationCategory></value>
+                </li>
+
+                <!-- Lighting -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_groundlight"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_groundlight_line"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Walllamp"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_SUNLIGHT"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_PendantLIGHT"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Gardenlight"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Floorlight"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_StreetlightA"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_StreetlightB"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_treelight"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_treelight_yellow"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_treelight_sakura"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_treelight_shrub"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_treelight_big"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Lighting</designationCategory></value>
+                </li>
+
+                <!-- Supports (columns) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Column"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Supports</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Column_sun"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Supports</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Column_Invisible"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Supports</designationCategory></value>
+                </li>
+
+                <!-- Tables -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_1X1_Table"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Tables</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_1X2_Table"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Tables</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_2X2_Table"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Tables</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_2X4_Table"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Tables</designationCategory></value>
+                </li>
+
+                <!-- Seating -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_TinyChair"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Seating</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Chair"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Seating</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Couch"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Seating</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CouchDouble"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Seating</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_OutdoorDouble"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Seating</designationCategory></value>
+                </li>
+
+                <!-- Storage: general shelves and racks -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Shelf"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_GeneralStorage</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Container_1X2_AS"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_GeneralStorage</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Container_2X2_AS"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_GeneralStorage</designationCategory></value>
+                </li>
+
+                <!-- Storage: information (books) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Bookcase"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_InformationStorage</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Bookshelf_AS"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_InformationStorage</designationCategory></value>
+                </li>
+
+                <!-- Storage: food (refrigerator) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Refrigerator_AS"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FoodStorage</designationCategory></value>
+                </li>
+
+                <!-- Storage: gear (wardrobe) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Wardrobe_AS"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_GearStorage</designationCategory></value>
+                </li>
+
+                <!-- Decorations: plants -->
+                <!-- UFLI_Decoration_Flower inherits designationCategory from abstract UFLI_DecorationBase, so use Add -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Flower"]</xpath>
+                    <value><designationCategory>Ferny_DecoPlants</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_Flower"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoPlants</designationCategory></value>
+                </li>
+
+                <!-- Decorations: art / sculptures / models -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Model"]</xpath>
+                    <value><designationCategory>Ferny_DecoArt</designationCategory></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Goldencube"]</xpath>
+                    <value><designationCategory>Ferny_DecoArt</designationCategory></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Spaceking"]</xpath>
+                    <value><designationCategory>Ferny_DecoArt</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_models"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoArt</designationCategory></value>
+                </li>
+
+                <!-- Decorations: hanging / holographic signage -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Holographic_logo"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoHanging</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Holographic_logo_small"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoHanging</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Holographic_advertisement"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoHanging</designationCategory></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Holographic"]</xpath>
+                    <value><designationCategory>Ferny_DecoHanging</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_Holographic"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoHanging</designationCategory></value>
+                </li>
+
+                <!-- Decorations: rugs -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CarpetA"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoRugs</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CarpetB"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoRugs</designationCategory></value>
+                </li>
+
+                <!-- Decorations: outdoor (3x3 fountains and statues) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_ATfountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_AGravefountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_MEKiiro"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_CeleTech"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_AVoidFountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_AMechFountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_ArchonexushFountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_AMEFountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_AMDFountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_ASunsetFountain"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_DecoOutdoor</designationCategory></value>
+                </li>
+
+                <!-- Decorations: misc -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Tableware"]</xpath>
+                    <value><designationCategory>Ferny_Decorations</designationCategory></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_tablelamp"]</xpath>
+                    <value><designationCategory>Ferny_Decorations</designationCategory></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Other"]</xpath>
+                    <value><designationCategory>Ferny_Decorations</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_Waterdispenser"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Decorations</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_Fishtank"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Aquarium</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_garbagecan"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Decorations</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Decoration_Big_ecotank"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Aquarium</designationCategory></value>
+                </li>
+
+                <!-- Recreation (subcategories under vanilla Joy, discriminated by joyKind) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_ChessTable"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecCerebral</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_PokerTable"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecCerebral</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_BilliardsTable"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecDexterity</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Telescope"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecStargazing</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Television"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecScreens</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_Hugescreen"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecScreens</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_laptop"]/designationCategory</xpath>
+                    <value><designationCategory>Iyadriel_RecScreens</designationCategory></value>
+                </li>
+
+                <!-- Production -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_WashingMachine"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Production</designationCategory></value>
+                </li>
+
+                <!-- Kitchen (nutrient paste dispenser — BAM precedent) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UFLI_InfiniteNutrientPasteDispenser"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_Kitchen</designationCategory></value>
+                </li>
+
+                <!-- Floors (TerrainDef, not ThingDef). Ferny_Floors* subs all nest under
+                     vanilla Floors and are always defined; the useSpecialFloorsTab
+                     toggle only changes rendering, not category existence. -->
+
+                <!-- Metal: industrial / starship / cube / honeycomb -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOOR"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORD"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORE"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORC"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORB"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+
+                <!-- Sterile-tile-equivalent decoratives: gold-bordered / checkered / mosaic.
+                     BAM routes vanilla SterileTile to Ferny_FloorsMetal (not Clean), so we follow suit. -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORI"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORJ"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORP"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORM"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsMetal</designationCategory></value>
+                </li>
+
+                <!-- Wood -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORH"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsWood</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORL"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsWood</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORO"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsWood</designationCategory></value>
+                </li>
+
+                <!-- Stone: reconstituted stone / fish-scale tile -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORN"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsStone</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORQ"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsStone</designationCategory></value>
+                </li>
+
+                <!-- Concrete: cordon line / outdoor pavers (paved-tile equivalents) -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORF"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsConcrete</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORK"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsConcrete</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORR"]/designationCategory</xpath>
+                    <value><designationCategory>Ferny_FloorsConcrete</designationCategory></value>
+                </li>
+
+                <!-- Natural / no good Ferny_Floors* match — drop into vanilla Floors parent -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORG"]/designationCategory</xpath>
+                    <value><designationCategory>Floors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_FLOORGII"]/designationCategory</xpath>
+                    <value><designationCategory>Floors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_Sand"]/designationCategory</xpath>
+                    <value><designationCategory>Floors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_WaterShallow"]/designationCategory</xpath>
+                    <value><designationCategory>Floors</designationCategory></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/TerrainDef[defName="UFLI_HotSpring"]/designationCategory</xpath>
+                    <value><designationCategory>Floors</designationCategory></value>
+                </li>
+
+                <!-- Remove the now-empty UF Light Industries parent category -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/DesignationCategoryDef[defName="UFLI_designation_group"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

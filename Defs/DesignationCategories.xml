@@ -33,4 +33,68 @@
 			</li>
 		</modExtensions>
 	</DesignationCategoryDef>
+
+	<DesignationCategoryDef>
+		<defName>Iyadriel_RecCerebral</defName>
+		<label>Cerebral</label>
+		<description>Cerebral games like chess and poker.</description>
+		<order>900</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="BetterArchitect.NestedCategoryExtension">
+				<parentCategory>Ferny_Hosting</parentCategory>
+			</li>
+		</modExtensions>
+	</DesignationCategoryDef>
+
+	<DesignationCategoryDef>
+		<defName>Iyadriel_RecDexterity</defName>
+		<label>Dexterity</label>
+		<description>Dexterity games like billiards and horseshoes.</description>
+		<order>850</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="BetterArchitect.NestedCategoryExtension">
+				<parentCategory>Ferny_Hosting</parentCategory>
+			</li>
+		</modExtensions>
+	</DesignationCategoryDef>
+
+	<DesignationCategoryDef>
+		<defName>Iyadriel_RecScreens</defName>
+		<label>Screens</label>
+		<description>Televisions and other screens.</description>
+		<order>800</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="BetterArchitect.NestedCategoryExtension">
+				<parentCategory>Ferny_Hosting</parentCategory>
+			</li>
+		</modExtensions>
+	</DesignationCategoryDef>
+
+	<DesignationCategoryDef>
+		<defName>Iyadriel_RecStargazing</defName>
+		<label>Stargazing</label>
+		<description>Telescopes and other stargazing structures.</description>
+		<order>750</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+		<modExtensions>
+			<li Class="BetterArchitect.NestedCategoryExtension">
+				<parentCategory>Ferny_Hosting</parentCategory>
+			</li>
+		</modExtensions>
+	</DesignationCategoryDef>
 </Defs>
