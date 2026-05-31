@@ -26,7 +26,5 @@
         <li>HoneyBadger.WallMountedTurretsVersionTwo</li>
         <li>KindSeal.UFLI</li>
     </loadAfter>
-    <description>
-        Misc patches for Better Architect Menu
-    </description>
+    <description>Routes buildings from various mods into Better Architect Menu's nested categories, and adds a few extra sub-categories of its own.</description>
 </ModMetaData>
