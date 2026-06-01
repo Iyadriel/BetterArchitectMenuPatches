@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Pull the gravship piloting / comms / control consoles out of Space > Platform
+         into their own "Bridge" sub-tab. BAM's Odyssey + VE Gravship support patches
+         route all of these into Ferny_SpacePlatform; this mod loads after BAM, so these
+         Replaces win. Signal jammer and the scanner cluster intentionally stay in Platform. -->
+
+    <!-- Odyssey native -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Odyssey</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="PilotConsole"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+            </value>
+        </match>
+    </Operation>
+
+    <!-- Vanilla Gravship Expanded -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Gravship Expanded - Chapter 1</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VGE_PilotCockpit"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VGE_PilotBridge"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VGE_CopilotConsole"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VGE_CommsTerminal"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VGE_EngineeringConsole"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VGE_GravtechConsole"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Iyadriel_SpaceBridge</designationCategory>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
